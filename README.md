@@ -4,7 +4,7 @@
 2. Criar o Banco de dados com script base disponível no github:
 
     Comando p/ conectar ao banco sql pelo cloud shell...
-    mysql -h desafio-projeto-bootcamp.mysql.database.azure.com -u lacerdakris -p
+    mysql -h desafio-projeto-bootcamp.mysql.database.azure.com -u lacerdakris -p;
     use azure_company;
     demais comandos de query do mysql...
    ![image](https://github.com/LacerdaKris/-28-5.000-Resultados-de-tradu-o-Processing-Transformation-Data/assets/107269748/2441b797-43b3-42af-b9c2-653d70ed6151)
@@ -30,7 +30,7 @@ Diretrizes para transformação dos dados
 12. Mescle as colunas de Nome e Sobrenome para ter apenas uma coluna definindo os nomes dos colaboradores
 Utilizado este comando em “criar nova coluna personalizada”: [First Name] & " " & [Last Name]
 13. Mescle os nomes de departamentos e localização. Isso fará que cada combinação departamento-local seja único. Isso irá auxiliar na criação do modelo estrela em um módulo futuro.
-14. Explique por que, neste caso supracitado, podemos apenas utilizar o mesclar e não o atribuir.
+14. Explique por que, neste caso supracitado, podemos apenas utilizar o mesclar e não o atribuir.                                                                                       
 
      O mesclar combina as tabelas com base em uma coluna de junção (como o comando join no SQL), neste caso a atribuição não seria útil em
      juntar as informações de duas colunas de tabelas diferentes, só se o objetivo fosse empilhar tabelas verticalmente (ou seja,
