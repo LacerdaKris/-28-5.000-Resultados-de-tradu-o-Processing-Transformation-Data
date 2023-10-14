@@ -2,14 +2,15 @@
 
 1. Criação de uma instância na Azure para MySQL: desafio-projeto-bootcamp
 2. Criar o Banco de dados com script base disponível no github:
+
     Comando p/ conectar ao banco sql pelo cloud shell...
     mysql -h desafio-projeto-bootcamp.mysql.database.azure.com -u lacerdakris -p
     use azure_company;
     demais comandos de query do mysql...
    ![image](https://github.com/LacerdaKris/-28-5.000-Resultados-de-tradu-o-Processing-Transformation-Data/assets/107269748/2441b797-43b3-42af-b9c2-653d70ed6151)
 
-3. Integração do Power BI com MySQL no Azure
-4. Verificar problemas na base a fim de realizar a transformação dos dados
+4. Integração do Power BI com MySQL no Azure
+5. Verificar problemas na base a fim de realizar a transformação dos dados
  ![image](https://github.com/LacerdaKris/-28-5.000-Resultados-de-tradu-o-Processing-Transformation-Data/assets/107269748/2b6db8e5-0742-4b88-a1a9-6a190dfa16d7)
 
 
@@ -30,6 +31,7 @@ Diretrizes para transformação dos dados
 Utilizado este comando em “criar nova coluna personalizada”: [First Name] & " " & [Last Name]
 13. Mescle os nomes de departamentos e localização. Isso fará que cada combinação departamento-local seja único. Isso irá auxiliar na criação do modelo estrela em um módulo futuro.
 14. Explique por que, neste caso supracitado, podemos apenas utilizar o mesclar e não o atribuir.
+
      O mesclar combina as tabelas com base em uma coluna de junção (como o comando join no SQL), neste caso a atribuição não seria útil em
      juntar as informações de duas colunas de tabelas diferentes, só se o objetivo fosse empilhar tabelas verticalmente (ou seja,
      adicionar mais linhas na tabela indiferente das colunas, o que é útil ao incluir mais dados que advém da mesma estrutura de colunas).
